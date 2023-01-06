@@ -27,7 +27,7 @@ function TopButtons() {
   return (
     <div className="flex items-center justify-around my-6">
       {cities.map((city) => (
-        <button key={city.id} className="text-white text-lg font-medium px-2">{city.title}</button>
+        <button key={city.id} className="text-white text-lg font-medium px-2 hover:scale-110">{city.title}</button>
       ))}
     </div>
   );
